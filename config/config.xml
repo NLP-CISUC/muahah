@@ -82,25 +82,29 @@ getPriorities
         <decisionMethod name="PrioritySystemMultiAnswers" weight="0"/>
         <decisionMethod name="PrioritySystemDevelopmentMulti" weight="0"/>
         <decisionMethod name="WeightedVote" weight="0"/>
-        <decisionMethod name="query_agent" weight="20"/>
+        <decisionMethod name="query_agent" weight="0"/>
         <decisionMethod name="answer_impersonal" weight="10"/>
         <decisionMethod name="query_answer" weight="10"/>
         <decisionMethod name="YesNoStrategy" weight="20"/>
         <decisionMethod name="OrStrategy" weight="10"/>
         <decisionMethod name="AMAStrategy" weight="0"/>
+        <decisionMethod name="BordaStrategy" weight="20"/>
     </decisionMethods>
     <answerAmount>2</answerAmount>
 
     <agents>
         <!-- external agents -->
-        <agent name="CosineAgent" active="1"/>
-        <agent name="EdgarAgent" active="1"/>
+        <agent name="CosineAgent" active="0"/>
+        <agent name="EdgarAgent" active="0"/>
         <agent name="GrootAgent" active="0"/>
-        <agent name="JaccardAgent" active="1"/>
-        <agent name="LevenshteinAgent" active="1"/>
+        <agent name="JaccardAgent" active="0"/>
+        <agent name="LevenshteinAgent" active="0"/>
         <agent name="YesNoAgent" active="0"/>
         <agent name="OrAgent" active="0"/>
         <agent name="GeneralAgent" active="0"/>
+        <agent name="BertAgent" active="1"/>
+        <agent name="EmbeddingAgent" active="1"/>
+        <agent name="OshAgent" active="1"/>
         <!-- internal agents -->
         <agent name="talkpedia" active="0"/>
         <agent name="cheat" active="0"/>
