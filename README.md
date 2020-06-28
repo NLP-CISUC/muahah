@@ -6,6 +6,8 @@ Say Something Smart (SSS) is a dialogue engine based on a large corpus of movie 
 
 This specific project - chatuga-SSS - is focused on the implementation of a plug-and-play system composed by multiple distinct agents: each agent gives its own response to the received user input, and the best answer is reached through a set of different decision making strategies.
 
+This a fork from the original project where three external agentl and a new dicision making strategy were added for question awnsering.
+
 
 ## How does it work?
 
